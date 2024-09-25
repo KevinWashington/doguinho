@@ -1,19 +1,16 @@
 <template>
-  <header class="py-3 mb-5 border-bottom sticky-top bg-light">
+  <header class="py-3 border-bottom sticky-top bg-light">
     <div class="container d-flex flex-wrap justify-content-center">
       <a
         href="/"
-        class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-primary text-decoration-none"
+        class="d-flex align-items-center mb-md-0 me-md-auto text-primary text-decoration-none"
       >
-        <svg class="bi me-2" width="40" height="32">
-          <use xlink:href="#bootstrap"></use>
-        </svg>
         <span class="fs-4 fw-bold">
           <i class="mdi mdi-bullseye-arrow"></i>MESTRE DAS MARCAS</span
         >
       </a>
 
-      <div class="form-check form-switch ms-auto mt-2 me-5 d-sm-none">
+      <div class="form-check form-switch ms-auto mt-2 me-5 d-none d-lg-block">
         <label
           id="icone-toggle"
           class="form-check-label ms-3"
@@ -26,7 +23,7 @@
         <input class="form-check-input" type="checkbox" id="lightSwitch" />
       </div>
 
-      <ul id="menu" class="nav nav-pills">
+      <ul id="menu" class="nav nav-pills d-none d-lg-flex">
         <li class="nav-item">
           <a href="#topo" class="nav-link active" aria-current="page">Home</a>
         </li>

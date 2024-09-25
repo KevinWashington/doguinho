@@ -1,7 +1,7 @@
 <template>
   <div id="topo">
     <Header />
-    <div class="container">
+    <div class="container px-3">
       <Main />
       <Servicos />
       <Prices />
