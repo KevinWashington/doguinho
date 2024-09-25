@@ -13,7 +13,7 @@
         >
       </a>
 
-      <div class="form-check form-switch ms-auto mt-2 me-5">
+      <div class="form-check form-switch ms-auto mt-2 me-5 d-sm-none">
         <label
           id="icone-toggle"
           class="form-check-label ms-3"
