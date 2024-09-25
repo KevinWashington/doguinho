@@ -9,7 +9,7 @@
           <use xlink:href="#bootstrap"></use>
         </svg>
         <span class="fs-4 fw-bold">
-          <i class="mdi mdi-dog"></i> Doguinho's</span
+          <i class="mdi mdi-bullseye-arrow"></i>MESTRE DAS MARCAS</span
         >
       </a>
 
@@ -169,4 +169,8 @@ export default {
   },
 };
 </script>
-<style></style>
+<style>
+span{
+  color: #8F61E8;
+}
+</style>

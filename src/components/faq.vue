@@ -11,14 +11,15 @@
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
               <button
-                class="text-primary accordion-button bg-light"
+                class="accordion-button bg-light"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
-                Accordion Item #1
+              <strong>COMO FUNCIONA?</strong>
+              
               </button>
             </h2>
             <div
@@ -28,29 +29,22 @@
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body bg-light">
-                <strong>This is the first item's accordion body.</strong> It is
-                shown by default, until the collapse plugin adds the appropriate
-                classes that we use to style each element. These classes control
-                the overall appearance, as well as the showing and hiding via
-                CSS transitions. You can modify any of this with custom CSS or
-                overriding our default variables. It's also worth noting that
-                just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                O cliente entra em contato com a nossa empresa e informa que tipo de divulgação ele(a) quer, depois o cliente vai participar de uma reunião com nossos funcionários para que seja possível entender como será feita e administrada essa divulgação. Por último, tudo será colocado em prática.
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
               <button
-                class="text-primary accordion-button collapsed bg-light"
+                class="accordion-button collapsed bg-light"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-                Accordion Item #2
+              <strong>PÚBLICO-ALVO</strong>
+              
               </button>
             </h2>
             <div
@@ -60,29 +54,21 @@
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body bg-light">
-                <strong>This is the second item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                Nosso público-alvo são pessoas que buscam praticidade na hora de promover o seu negócio, como: Empresas, Pessoas públicas, Empreendedores, Agências, Consultorias e entre outros...
               </div>
             </div>
           </div>
           <div class="accordion-item">
             <h2 class="accordion-header" id="headingThree">
               <button
-                class="text-primary accordion-button collapsed bg-light"
+                class="accordion-button collapsed bg-light"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
-                Accordion Item #3
+                <strong>COMO FUNCIONA O PROCESSO DE CRIAÇÃO DE UMA ESTRATÉGIA DE MARKETING?</strong>
               </button>
             </h2>
             <div
@@ -92,15 +78,16 @@
               data-bs-parent="#accordionExample"
             >
               <div class="accordion-body bg-light">
-                <strong>This is the third item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                <p>Nosso processo é personalizado para atender às necessidades de cada cliente, mas geralmente seguimos os seguintes passos:</p>
+    <ol>
+      <li><strong>Diagnóstico inicial:</strong> Fazemos uma reunião para entender o seu negócio, o público-alvo e os objetivos da sua empresa.</li>
+      <li><strong>Pesquisa de mercado:</strong> Realizamos uma análise detalhada do seu mercado e dos concorrentes para identificar oportunidades e desafios.</li>
+      <li><strong>Definição de estratégia:</strong> Com base nos dados coletados, desenvolvemos uma estratégia de marketing personalizada, com táticas que podem incluir SEO, marketing de conteúdo, campanhas pagas, entre outras.</li>
+      <li><strong>Execução:</strong> Nossa equipe coloca o plano em ação, monitorando o desempenho de cada etapa.</li>
+      <li><strong>Análise e otimização:</strong> Mensalmente, entregamos relatórios detalhados sobre o progresso das campanhas e fazemos ajustes conforme necessário para maximizar os resultados.</li>
+    </ol>
+    <p>Este processo é flexível e pode ser ajustado conforme as demandas e os resultados que forem surgindo.</p>
+
               </div>
             </div>
           </div>
@@ -114,4 +101,9 @@ export default {
   name: "Faq",
 };
 </script>
-<style></style>
+<style>
+  body.bg-dark .accordion-item, .accordion-button{
+    color: #fff !important;
+  }
+  
+</style>

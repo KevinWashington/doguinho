@@ -42,4 +42,24 @@ export default {
   margin: 0;
   padding: 0;
 }
+.nav-item .nav-link{
+    color: #8F61E8 !important;
+}
+.nav-link.active{
+  background-color: #fff !important;
+  border: 1px solid #8F61E8;
+}
+
+.btn{
+  background-color: #8F61E8 !important;
+  border: none;
+}
+
+.border-primary{
+  border: 1px solid #8F61E8 !important;
+}
+
+.card-header{
+  background-color: #8F61E8 !important;
+}
 </style>

@@ -9,13 +9,9 @@
           <div class="h-100 p-5 bg-light border rounded-3">
             <h2>Fale Conosco</h2>
             <p class="p-5">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Laudantium similique eius dolorem illo quis, libero totam
-              provident praesentium, ducimus atque magni architecto. Similique
-              excepturi quisquam veniam architecto quas, aliquid odit?
+              Estamos aqui para ajudar! Se você tiver dúvidas, sugestões ou precisar de mais informações sobre nossos serviços, não hesite em entrar em contato conosco. Nossa equipe está pronta para atender você da melhor forma possível.
             </p>
-            <p class="mt-4"><i class="mdi mdi-phone"></i> (00) 00000-0000</p>
-            <p class="mt-1"><i class="mdi mdi-email"></i> email@provedor.com</p>
+            <p class="mt-1"><i class="mdi mdi-email"></i> @mestre_das_marcas</p>
             <button class="btn btn-success mt-4 w-75 p-3" type="button">
               <i class="mdi mdi-whatsapp"></i>
               Chamar Whatsapp
